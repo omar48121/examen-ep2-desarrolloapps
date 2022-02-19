@@ -1,0 +1,51 @@
+div.container { 
+    padding: 0px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.home-links {
+    margin-top: 10px;
+}
+
+#hello:hover {
+    letter-spacing: 0.5em;
+    background-color: #283b6b;
+  }
+  
+  #hello {
+    color: white;
+    font-style: bold;
+  }
+  button {
+    height: 3em;
+    padding: 1.5em auto;
+    margin: 1em auto;
+    background-color: #123caa;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 0.2em;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+   
+  }
+.svg-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.svg-container > img {
+    width: 35px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+p, h1, h2, h3 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.hideme
+{
+    opacity:0;
+}
+.margin-b {
+    margin-bottom: 30px;
+}

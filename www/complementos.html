@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <!-- <meta name="format-detection" content="telephone=no"> -->
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <!-- <meta name="color-scheme" content="light dark">s -->
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Examen 2</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Complementos</h1>
+            <img src="./img/node-removebg-preview.png" alt="">
+            <h2>¿Qué necesitamos para utilizar cordova?</h2>
+            <p>Cordova para Android requiere el SDK de Android que se puede instalar en OS X, Linux o Windows. Consulte los requisitos del sistema del SDK de Android . El último paquete de Android de Cordova admite hasta el nivel de API de Android 28.</p>
+            <h3>Además requerimos de las siguientes herramientas:</h3>
+            <p class="hideme">Android SDK, Gradle, Java y Node JS.</p>
+
+            <div class="svg-container hideme">
+                <img src="./img/svg/android.png" alt="">
+                <img src="./img/svg/gradle-seeklogo.com.png" alt="">
+                <img src="./img/svg/java-seeklogo.com.png" alt="">
+                <img src="./img/svg/nodejs-seeklogo.com.png" alt="">
+            </div>
+
+            <button class="hideme" onclick="volver()" id="hello">Volver al inicio</button>
+          </div>
+          <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+          <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+              <ul>
+                <li><a href="./cordova.html">¿Qué es cordova?</a></li>
+                <li><a href="./complementos.html">¿Qué necesitamos para utilizar cordova?</a></li>
+                <li><a href="./compilacion.html">¿Para qué sistemas móviles compila?</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        <script src="./js/jquery.js"></script>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+        <script src="./js/fade.js"></script>
+    </body>
+</html>
